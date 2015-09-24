@@ -1,7 +1,7 @@
 # w3j-test
 
 
-Build with `python setup.py build_ext --inplace` to give you `test.so`.
+Install the [w3j](github.com/timothydmorton/w3j) module first.  Then build with `python setup.py build_ext --inplace` to give you `test.so`.
 
 Importing `test` will then give you access to the `w3j_ms` function:
 
