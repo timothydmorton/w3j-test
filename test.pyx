@@ -8,7 +8,7 @@ foo="hi"
 DTYPE = np.float
 ctypedef np.float_t DTYPE_t
 
-from w3j._w3j import drc3jm
+from w3j import drc3jm
 
 
 @cython.boundscheck(False)
